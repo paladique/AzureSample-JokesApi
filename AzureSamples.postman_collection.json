@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "041e5e93-a9e8-410a-9172-a1cf16d0d728",
+		"name": "AzureSamples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "JokesAPIRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://function-app-name.azurewebsites.net/api/jokes-api",
+					"protocol": "https",
+					"host": [
+						"function-app-name",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"jokes-api"
+					]
+				},
+				"description": "Sample API Request for Azure Function Sample"
+			},
+			"response": []
+		},
+		{
+			"name": "Local - JokesAPIRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/jokes-api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"jokes-api"
+					]
+				},
+				"description": "Sample API Request for Azure Function Sample"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "function-app-name",
+			"value": "{{function-app-name}}"
+		}
+	]
+}
