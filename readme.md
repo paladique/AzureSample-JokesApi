@@ -4,7 +4,7 @@
 
 ## Run locally via Command Line
 
-1. Install  [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
+1. Install  [Azure Functions Core Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=windows,csharp,bash&WT.mc_id=academic-0000-jasmineg#install-the-azure-functions-core-tools)
 
 2. Clone this repository and navigate to its directory in your favorite command line tool
 
@@ -30,11 +30,11 @@
 
 ## Deploy to Azure via VS Code
 
-_FYI: There are MANY ways to deploy a function to Azure, you can find more info [here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-deployment-technologies#deployment-methods)_
+_FYI: There are MANY ways to deploy a function to Azure, you can find more info [here](https://docs.microsoft.com/azure/azure-functions/functions-deployment-technologies?WT.mc_id=academic-0000-jasmineg#deployment-methods)_
 
 1. Open your local copy in VS Code
 
-2. Install the [Azure Function Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+2. Install the [Azure Function Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions&WT.mc_id=academic-0000-jasmineg)
 
 2. In the Explorer, right click in the root directory and select `Deploy to Function App...`
 
