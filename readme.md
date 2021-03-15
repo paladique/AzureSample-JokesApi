@@ -1,6 +1,6 @@
 # Joke Generator
 
-HTTP Azure Function that returns random jokes.
+[HTTP Azure Function](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook?&WT.mc_id=academic-0000-jasmineg) that returns random jokes. [Based off this version built in JavaScript](https://github.com/alexweininger/joke-api)
 
 ## Run locally via Command Line
 
@@ -74,7 +74,10 @@ Postman makes it easy to send POST/GET/etc requests to endpoints, perfect for HT
 - Click `Send`
 
 
-
 ### It should look something like this:
 
 ![sending a get request with postman](postman-request.png)
+
+
+📖 [Learn more about Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview?WT.mc_id=academic-0000-jasmineg)
+👩🏿‍🏫 [Microsoft Learn Modules on Azure Functions](https://docs.microsoft.com/en-us/learn/browse/?terms=azure%20functions&WT.mc_id=academic-0000-jasmineg)
